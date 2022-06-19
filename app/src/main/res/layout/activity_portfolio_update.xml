@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF7F7F"
+    tools:context=".Portfolio_update">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:padding="-10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Username"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/activity_updateUser_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/field_pattern"
+            android:hint="Username"
+            android:padding="10dp"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Fullname"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/activity_updateUser_fullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/field_pattern"
+            android:hint="Fullname"
+            android:padding="10dp"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Email"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/activity_updateUser_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/field_pattern"
+            android:hint="Email"
+            android:padding="10dp"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Phone Number"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/activity_updateUser_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/field_pattern"
+            android:inputType="number"
+            android:hint="Phone Number"
+            android:padding="10dp"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Address"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/activity_updateUser_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/field_pattern"
+            android:hint="Address"
+            android:padding="10dp"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/activity_updateUser_r_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_main_password"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:text="Update"
+            android:textSize="17dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF7F7F"
+    tools:context=".RegisterUser">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:padding="-10dp">
+
+        <EditText
+            android:id="@+id/activity_registerUser_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/field_pattern"
+            android:hint="Username"
+            android:padding="10dp"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/activity_registerUser_fullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/field_pattern"
+            android:hint="Fullname"
+            android:padding="10dp"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/activity_registerUser_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/field_pattern"
+            android:hint="Email"
+            android:padding="10dp"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/activity_registerUser_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/field_pattern"
+            android:inputType="number"
+            android:hint="Phone Number"
+            android:padding="10dp"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/activity_registerUser_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/field_pattern"
+            android:hint="Address"
+            android:padding="10dp"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/activity_registerUser_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/field_pattern"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/activity_registerUser_r_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_main_password"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:text="Register"
+            android:textSize="17dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
